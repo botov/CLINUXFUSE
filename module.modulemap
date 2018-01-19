@@ -1,0 +1,5 @@
+module CLINUXFUSE [system] {
+  header "shims.h"
+  link "fuse"
+  export *
+}
